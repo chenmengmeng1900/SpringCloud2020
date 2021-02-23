@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5d90a5cb-6858-40a3-ae62-27a0cce6960f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment-8001/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment-8001/target/classes/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,9 +33,9 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="D:\Documents\Downloads\apache-maven-3.6.3-bin\apache-maven-3.6.3\conf\respsitory" />
-        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.1\plugins\maven\lib\maven3" />
-        <option name="userSettingsFile" value="D:\Documents\Downloads\apache-maven-3.6.3-bin\apache-maven-3.6.3\conf\settings.xml" />
+        <option name="localRepository" value="C:\Users\陈萌萌\Downloads\apache-maven-3.6.3\conf\respsitory" />
+        <option name="mavenHome" value="C:\Users\陈萌萌\Downloads\apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="C:\Users\陈萌萌\Downloads\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -69,7 +71,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.29804373" />
-    <property name="settings.editor.selected.configurable" value="reactor" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="ReactorSettings">
     <option name="debugInitializationType" value="HOOKS" />
@@ -92,7 +94,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.OrderMain80">
+  <component name="RunManager" selected="Spring Boot.PaymentMain8001">
     <configuration type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-consumer-order80" />
       <extension name="coverage">
@@ -106,13 +108,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -173,6 +177,7 @@
       <workItem from="1608294788404" duration="8919000" />
       <workItem from="1608354572940" duration="5802000" />
       <workItem from="1608555331319" duration="574000" />
+      <workItem from="1614096851008" duration="1141000" />
     </task>
     <task id="LOCAL-00001" summary="修改报错">
       <created>1607606473878</created>
@@ -254,10 +259,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="151" y="208" width="1720" height="800" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607688287981" />
-    <state x="892" y="310" key="FileChooserDialogImpl" timestamp="1608302149825">
+    <state x="892" y="310" key="FileChooserDialogImpl" timestamp="1614097314966">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="892" y="310" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1608302149825" />
+    <state x="892" y="310" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1614097314966" />
     <state x="771" y="419" key="Github.CreateGistDialog" timestamp="1607608720797">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -270,38 +275,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="843" y="561" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607591992611" />
-    <state width="1456" height="449" key="GridCell.Tab.0.bottom" timestamp="1608360158009">
+    <state width="1458" height="615" key="GridCell.Tab.0.bottom" timestamp="1614097914422">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1456" height="449" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608360158009" />
-    <state width="1456" height="449" key="GridCell.Tab.0.center" timestamp="1608360158009">
+    <state width="1458" height="615" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614097914422" />
+    <state width="1458" height="615" key="GridCell.Tab.0.center" timestamp="1614097914422">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1456" height="449" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608360158009" />
-    <state width="1456" height="449" key="GridCell.Tab.0.left" timestamp="1608360158009">
+    <state width="1458" height="615" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614097914422" />
+    <state width="1458" height="615" key="GridCell.Tab.0.left" timestamp="1614097914422">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1456" height="449" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608360158009" />
-    <state width="1456" height="449" key="GridCell.Tab.0.right" timestamp="1608360158009">
+    <state width="1458" height="615" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614097914422" />
+    <state width="1458" height="615" key="GridCell.Tab.0.right" timestamp="1614097914422">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1456" height="449" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608360158009" />
-    <state width="1456" height="449" key="GridCell.Tab.1.bottom" timestamp="1608360158010">
+    <state width="1458" height="615" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614097914422" />
+    <state width="1458" height="615" key="GridCell.Tab.1.bottom" timestamp="1614097914422">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1456" height="449" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608360158010" />
-    <state width="1456" height="449" key="GridCell.Tab.1.center" timestamp="1608360158009">
+    <state width="1458" height="615" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614097914422" />
+    <state width="1458" height="615" key="GridCell.Tab.1.center" timestamp="1614097914422">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1456" height="449" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608360158009" />
-    <state width="1456" height="449" key="GridCell.Tab.1.left" timestamp="1608360158009">
+    <state width="1458" height="615" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614097914422" />
+    <state width="1458" height="615" key="GridCell.Tab.1.left" timestamp="1614097914422">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1456" height="449" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608360158009" />
-    <state width="1456" height="449" key="GridCell.Tab.1.right" timestamp="1608360158009">
+    <state width="1458" height="615" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614097914422" />
+    <state width="1458" height="615" key="GridCell.Tab.1.right" timestamp="1614097914422">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1456" height="449" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608360158009" />
+    <state width="1458" height="615" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614097914422" />
     <state width="1456" height="449" key="GridCell.Tab.2.bottom" timestamp="1608360158010">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -326,10 +331,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="540" y="253" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608300233838" />
-    <state x="613" y="187" key="SettingsEditor" timestamp="1608354503595">
+    <state x="613" y="187" key="SettingsEditor" timestamp="1614097318164">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="613" y="187" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1608354503595" />
+    <state x="613" y="187" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1614097318164" />
     <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1608034905099">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
