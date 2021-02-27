@@ -10,7 +10,8 @@ import java.io.Serializable;
 @NoArgsConstructor
 @Data
 public class Payment implements Serializable {
-    private Integer id;
+
+    private Long id;
     private String serial;
 }
 
